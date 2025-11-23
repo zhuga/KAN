@@ -1,26 +1,31 @@
 ```
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-.zig/
-
 # Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
-*.out
-dist/
-build/
-target/
 *.so
 *.dll
 *.exe
+*.class
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -33,11 +38,7 @@ target/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# System
+# System files
 .DS_Store
 Thumbs.db
 
@@ -45,9 +46,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Gradle
-.gradle/
 
 # Compressed files
 *.zip
