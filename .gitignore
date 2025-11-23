@@ -4,11 +4,11 @@
 __pycache__/
 *.o
 *.obj
-*.so
-*.dll
-*.exe
-*.class
 *.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
 .venv/
@@ -20,6 +20,8 @@ target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
+.julia/
+.zig/
 
 # Logs and temp files
 *.log
@@ -35,8 +37,6 @@ target/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
